@@ -1,0 +1,49 @@
+
+<div class="container">
+
+  <div class="home-row">
+    <h2>User Data</h2>
+  </div>
+
+  <div class="cards-container ">
+    <div class="card">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><%= @cadastro.name %></td>
+        </tr>
+
+        <tr>
+          <td>Url:</td>
+          <td><%= @cadastro.url %></td>
+        </tr>
+
+
+        <tr>
+          <td>Title:</td>
+          <td><%= @cadastro.scraped_title %></td>
+        </tr>
+
+
+        <tr>
+          <td>Bio:</td>
+          <td><%= @cadastro.scraped_description %></td>
+        </tr>
+
+
+        <tr>
+          <td><i class="fab fa-twitter"></i></td>
+          <td><%= @cadastro.scraped_user %></td>
+         </tr>
+
+        <tr>
+          <td>Short:</td>
+          <td><%= @cadastro.short_url %></td>
+        </tr>
+      </table>
+
+        <%= link_to 'Edit', edit_cadastro_path(@cadastro), :class=> 'btn btn-primary' %>
+        <%= link_to 'Destroy', @cadastro, method: :delete, :class=> 'btn btn-danger' %>
+    </div>
+  </div>
+</div>

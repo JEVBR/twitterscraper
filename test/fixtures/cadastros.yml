@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  url: MyString
+  scraped_title: MyString
+  scraped_description: MyString
+  scraped_user: MyString
+  short_url: MyString
+
+two:
+  name: MyString
+  url: MyString
+  scraped_title: MyString
+  scraped_description: MyString
+  scraped_user: MyString
+  short_url: MyString

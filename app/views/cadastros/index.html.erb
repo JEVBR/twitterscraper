@@ -1,0 +1,29 @@
+<div class="cadastro-row">
+  <h2>Twitter Scraping tool</h2>
+</div>
+<div class="cards-container">
+
+  <% @cadastros.each do |cadastro| %>
+
+
+    <div class="card">
+      <table>
+        <tr>
+          <td>Name:</td>
+          <td><%= cadastro.name %></td>
+        </tr>
+
+        <tr>
+          <td>Url:</td>
+          <td><%= cadastro.url %></td>
+        </tr>
+      </table>
+
+      <%= link_to 'Show', cadastro, :class=> 'btn btn-primary'%>
+
+      <br>
+    </div>
+
+  <% end %>
+
+</div>

@@ -1,0 +1,42 @@
+/* -------------------------------------
+ * Your CSS code for flash notices and alerts
+* ------------------------------------- */
+
+.alert {
+  margin: 0;
+  text-align: center;
+  color: white;
+}
+.alert-info {
+  background: rgba(65, 173, 73,0.7);
+  border-style: none;
+}
+.alert-warning {
+  background: rgba(228, 87, 46,0.7);
+  border-style: none;
+}
+
+.alert-danger {
+  background-color: rgba(228, 87, 46,0.7);
+  border-style: none;
+}
+
+.alert.alert-warning.alert-dismissible {
+  background-color: rgba(228, 87, 46,0.7);
+  border-style: none;
+}
+
+.invalid-feedback {
+  color: $flame;
+  font-size: 14px;
+}
+
+.form-text {
+color: $red;
+font-size: 14px;
+font-weight: lighter;
+}
+
+.field_with_errors {
+  @extend .has-error;
+}

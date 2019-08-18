@@ -1,0 +1,13 @@
+<%= form_for(cadastro) do |f| %>
+<div class="form-group">
+  <h5> Please input your name here </h5>
+  <%= f.text_field :name, class: 'form-control' %>
+</div>
+<div class="form-group">
+    <h5> Please input your Twitter url here </h5>
+  <%= f.text_field :url, class: 'form-control' %>
+</div>
+<div class="form-check">
+  <%= f.submit class: 'btn btn-primary' %>
+</div>
+<% end %>

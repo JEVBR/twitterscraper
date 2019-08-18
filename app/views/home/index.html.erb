@@ -1,0 +1,16 @@
+<div class="container">
+
+  <div class="home-row">
+    <h2>Twitter Scraping tool</h2>
+  </div>
+  <div class="home-row">
+
+    <%= form_tag cadastros_path, method: :get do %>
+      <h5>Enter your search here</h5>
+      <%= text_field_tag :search, params[:search], :class => 'form-control'%>
+
+      <%= submit_tag 'Search', :class=> 'btn btn-primary' %>
+    <% end %>
+  </div>
+
+</div>
