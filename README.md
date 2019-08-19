@@ -14,7 +14,7 @@ The challenge is (as requested) written in Ruby using:
 
  styling for this app:
 
-bootstrap-sass ( iknow, i should update to BS4 )
+bootstrap-sass ( i know, i should update to BS4 )
 
 font-awesome-sass ( has the nice Twitter icon )
 
