@@ -1,17 +1,17 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
 
 one:
-  name: MyString
-  url: MyString
-  scraped_title: MyString
-  scraped_description: MyString
-  scraped_user: MyString
-  short_url: MyString
+  name: Trump
+  url: https://twitter.com/realDonaldTrump
+  scraped_title: Donald J. Trump
+  scraped_description:  '45th President of the United States of America'
+  scraped_user: '@realDonaldTrump'
+  short_url: https://is.gd/p5Rjzv
 
 two:
-  name: MyString
-  url: MyString
-  scraped_title: MyString
-  scraped_description: MyString
-  scraped_user: MyString
-  short_url: MyString
+  name: me
+  url:  you
+  scraped_title:  title not found
+  scraped_description: description not found
+  scraped_user: '@user not found'
+  short_url: VeryshortURL

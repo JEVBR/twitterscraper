@@ -36,4 +36,16 @@ $ rails s
 
 The solution now should be up and running on: http://localhost:3000
 
+# Testing
+
+(work in progress)
+
+using the gems:
+
+  capybara, webdrivers and launchy
+
+System testing is done by :
+
+$ rails test:system
+
 
