@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This repository is my solution for the challenge of Fretadao.
 
-Things you may want to cover:
+The challenge is (as requested) written in Ruby using:
 
-* Ruby version
+* Ruby version 2.6.3 and Rails 2.5.3
 
-* System dependencies
+* PostgreSQL as the Database
 
-* Configuration
+The original challenge is: https://github.com/Fretadao/challenge/tree/master/fullstack/indexer
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+The solution is deployes at: https://ftwitterscraper.herokuapp.com
