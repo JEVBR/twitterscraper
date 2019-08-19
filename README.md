@@ -6,7 +6,7 @@ The challenge is (as requested) written in Ruby using:
 
 * Ruby version 2.6.3 (latest version)
 
-* Rails 5.2.3 ( just because Rails 6.0 ) was not out yet when i started this project
+* Rails 5.2.3 ( just because Rails 6.0 was not out yet when i started this project )
 
 * PostgreSQL as the Database, reason: good expirience when using it before, great intergration with Heroku
 
@@ -42,7 +42,7 @@ The solution now should be up and running on: http://localhost:3000
 
 using the gems:
 
-  capybara, webdrivers and launchy
+capybara, webdrivers and launchy
 
 System testing is done by :
 
