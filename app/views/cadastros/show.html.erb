@@ -38,7 +38,11 @@
 
         <tr>
           <td>Short:</td>
-          <td><%= link_to @cadastro.short_url , @cadastro.short_url, {:style=>'color:#4000FF;'} %></td>
+          <% if @cadastro.short_url == 'VeryshortURL' %>
+            <td><%= @cadastro.short_url %></td>
+          <% else %>
+            <td><%= link_to @cadastro.short_url , @cadastro.short_url, {:style=>'color:#4000FF;'} %></td>
+          <% end %>
         </tr>
       </table>
 

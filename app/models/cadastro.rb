@@ -22,9 +22,8 @@ class Cadastro < ApplicationRecord
     self.scraped_user = doc.css('.ProfileHeaderCard-screennameLink .username.u-dir').text
   end
 
+  # creates a short url, changes the short url when update is done
   def schrink_url
-    return if short_url.present?
-
     party_url = "https://is.gd/create.php?format=simple&url=#{url}"
     r = HTTParty.post(party_url)
     self.short_url = (200..299).cover?(r.code) ? r.parsed_response : 'No short URL available'
