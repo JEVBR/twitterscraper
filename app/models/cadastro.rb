@@ -24,6 +24,8 @@ class Cadastro < ApplicationRecord
 
   # creates a short url, changes the short url when update is done
   def schrink_url
+    return unless url.match?(/\A(https:\/\/twitter.com\/)/)
+
     party_url = "https://is.gd/create.php?format=simple&url=#{url}"
     r = HTTParty.post(party_url)
     self.short_url = (200..299).cover?(r.code) ? r.parsed_response : 'VeryshortURL'
